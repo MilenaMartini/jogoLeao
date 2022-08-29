@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.game-board {
+    width: 80%;
+    height: 500px;
+    border: 1px solid #333;
+    margin: 0% auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.pedra {
+    position: absolute;
+    bottom: -2%;
+    width: 85px;
+    animation: pedra-animation 2s infinite linear; 
+}
+
+.leao {
+    width: 150px;
+    position: absolute;
+    bottom: -5%;
+}
+
+.pulo{
+
+    animation: leao-pulo 500ms ease-out;
+
+}
+
+@keyframes pedra-animation {
+    from{
+        right: 0;
+    }
+    
+    to {
+        right: 100%;
+    }
+}
+
+@keyframes leao-pulo {
+    0% {
+        bottom: -5%;
+    }
+
+    20%{
+        bottom: 140px;
+    }
+
+    30%{
+        bottom: 160px;
+    }
+
+    40%{
+        bottom: 180px;
+    }
+
+    50%{
+        bottom: 180px;
+    }
+
+    60%{
+        bottom: 180px;
+    }
+
+    70%{
+        bottom: 160px;
+    }
+
+    80%{
+        bottom: 140px;
+    }
+
+    100%{
+        bottom: -5%;
+    }
+    
+}
