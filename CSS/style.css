@@ -5,18 +5,19 @@
 }
 
 .game-board {
-    width: 80%;
-    height: 500px;
-    border: 1px solid #333;
+    width: 100%;
+    height: 510px;
+    border-bottom: 80px solid rgb(88, 195, 34);
     margin: 0% auto;
     position: relative;
     overflow: hidden;
+    background: linear-gradient(#87CEEB, #E0F6FF);
 }
 
 .pedra {
     position: absolute;
-    bottom: -2%;
-    width: 85px;
+    bottom: -4%;
+    width: 120px;
     animation: pedra-animation 2s infinite linear; 
 }
 
@@ -27,8 +28,8 @@
 }
 
 .pulo{
-
-    animation: leao-pulo 500ms ease-out;
+ 
+    animation: leao-pulo 550ms ease-out;
 
 }
 
@@ -79,4 +80,8 @@
         bottom: -5%;
     }
     
+}
+
+.body{
+    background-color: rgb(179, 133, 33);
 }
