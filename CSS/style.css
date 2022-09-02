@@ -18,6 +18,8 @@
     position: absolute;
     bottom: 15%;
     width: 600px;
+    animation: nuvem-animation 2.5s infinite linear; 
+
 }
 
 .pedra {
@@ -39,9 +41,21 @@
 
 }
 
+
+
+@keyframes nuvem-animation {
+    from{
+        right: -100%;
+    }
+    
+    to {
+        right: 125%;
+    }
+}
+
 @keyframes pedra-animation {
     from{
-        right: 0;
+        right: -100%;
     }
     
     to {

@@ -31,6 +31,9 @@ const loop = setInterval(() => {
 
         clearInterval(loop);
 
+        alert('recomeçar');
+
+
     }
 },10);
 
