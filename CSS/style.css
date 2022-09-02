@@ -14,6 +14,12 @@
     background: linear-gradient(#87CEEB, #E0F6FF);
 }
 
+.nuvem {
+    position: absolute;
+    bottom: 15%;
+    width: 600px;
+}
+
 .pedra {
     position: absolute;
     bottom: -4%;
